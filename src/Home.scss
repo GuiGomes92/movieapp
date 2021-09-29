@@ -1,0 +1,35 @@
+$primary-text-color: white;
+$primary-bg-color: #264653;
+$bg: #293241;
+
+.Home {
+  text-align: center;
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 60vh;
+  padding: 0 60px;
+  background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $primary-text-color;
+  h1 {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 40%;
+    text-align: left;
+    font-size: 50px;
+    color: #2bfda4
+  }
+  p { 
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    width: 50%;
+  };
+}

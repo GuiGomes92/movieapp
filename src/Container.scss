@@ -1,0 +1,16 @@
+$bg: #111419;
+$primary-text-color: #2bfda4;
+
+.Container {
+  padding: 50px 0;
+    background-color: $bg;
+    text-align: left;
+    h2 { 
+      margin-left: 10px;
+      color: $primary-text-color;
+      font-size: 40px;
+      font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    };
+  }

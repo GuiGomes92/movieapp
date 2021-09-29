@@ -1,0 +1,69 @@
+.popular {
+    h1 {
+        font-family: 'Alfa Slab One', cursive;
+        letter-spacing: 2px;
+        font-size: 3em;
+        margin-bottom: 0;
+        color: white;
+    }
+    .wishlistBtn {
+        background-color: #2BFDA4;
+        color: black;
+    }
+
+    .goBackBtn {
+        border: 1px solid #2BFDA4;
+    }
+
+    .goBackBtn:hover {
+        background-color: #2BFDA4;
+        color: black;
+    }
+}
+
+.upcoming {
+    h1 {
+        font-family: 'Bebas Neue', cursive;
+        text-transform: uppercase;
+        font-size: 3em;
+        margin-bottom: 0;
+        color: white;
+    }
+    .wishlistBtn {
+        background-color: #FCE41E;
+        color: black;
+    }
+
+    .goBackBtn {
+        border: 1px solid #FCE41E;
+    }
+
+    .goBackBtn:hover {
+        background-color: #FCE41E;
+        color: black;
+    }
+}
+
+.top_rated {
+    h1 {
+        font-family: 'Bevan', cursive;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-size: 2em;
+        margin-bottom: 0;
+        color: white;
+    }
+    .wishlistBtn {
+        background-color: #6944FC;
+        color: white;
+    }
+
+    .goBackBtn {
+        border: 1px solid #6944FC;
+    }
+
+    .goBackBtn:hover {
+        background-color: #6944FC;
+        color: white;
+    }
+}

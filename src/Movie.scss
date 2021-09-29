@@ -1,0 +1,76 @@
+.fullContainer {
+    width: 100%;
+    height: calc(100vh - 100px);
+    position: relative;
+    overflow: hidden;
+}
+
+.backdrop {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.posterContainer {
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    img {
+        margin: 60px;
+    }
+    .posterContainerInfo {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 20px;
+        h2 {
+            font-weight: lighter;
+            margin-top: 10px;
+            font-size: 1.5em;
+            color: white
+        }
+        p {
+            color: white;
+            margin-top: 0;
+        }
+        .wishlistBtn {
+            font-size: 15px;
+            border: none;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 15px 25px;
+            cursor: pointer;
+        }
+        .goBackBtn {
+            margin-right: 20px;
+            font-size: 15px;
+            background-color: transparent;
+            border-radius: 5px;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 15px 25px;
+        }
+        .goBackBtn:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.overlay {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(17, 17, 17, 0.7);
+}
