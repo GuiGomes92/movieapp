@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+## Before Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Create a copy of .env.example file
+1. Rename it to .env
+1. Add your apy key that can be found in https://developers.themoviedb.org/3/getting-started/introduction
+
+## Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 ## Available Scripts
 
