@@ -19,11 +19,15 @@
         background-color: #2BFDA4;
         color: black;
     }
+    h2, p {
+        font-family: 'Open Sans', sans-serif;
+    }
 }
 
 .upcoming {
     h1 {
         font-family: 'Bebas Neue', cursive;
+        letter-spacing: 2px;
         text-transform: uppercase;
         font-size: 3em;
         margin-bottom: 0;
@@ -42,12 +46,15 @@
         background-color: #FCE41E;
         color: black;
     }
+    h2, p {
+        font-family: 'Roboto Condensed', sans-serif;
+    }
 }
 
 .top_rated {
     h1 {
         font-family: 'Bevan', cursive;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         text-transform: uppercase;
         font-size: 2em;
         margin-bottom: 0;
@@ -65,5 +72,8 @@
     .goBackBtn:hover {
         background-color: #6944FC;
         color: white;
+    }
+    h2, p {
+        font-family: 'Montserrat', sans-serif;
     }
 }

@@ -14,7 +14,7 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/:category/:type/:id" render={(props) => <Movie {...props} />} />
+        <Route exact path="/:category/:type/:id" render={(props) => <Movie key={props.match.params.id} {...props} />} />
       </Switch>
     </Router>
   );

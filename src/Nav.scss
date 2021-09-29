@@ -13,7 +13,6 @@
     }
     .wishlistContainer {
         text-transform: uppercase;
-        letter-spacing: 1px;
         height: 60px;
         width: 15%;
         display: flex;
@@ -21,30 +20,47 @@
         align-items: center;
         border: 1px solid #2bfda4;
         .wishlistBtn {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            color: white;
-            width: 100%;
-            div {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background-color: #2bfda4;
-                width: 30px;
-                height: 30px;
-                border-radius: 100%;
-                p {
-                    margin: 0;
-                    color: black
-                }
-            }
+            cursor: pointer;
+            background: none;
+            text-transform: uppercase;
+            border: none;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+                font-family: 'Anton', sans-serif;
+                color: white;
         }
     }
 
     .wishlistPopUp {
-        position: relative;
-        top: 300px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        border-radius: 10px;
+        z-index: 9000;
+        top: 100px;
+        right: 4%;
+        width: 300px;
+        height: fit-content;
+        max-height: 400px;
+        overflow-y: scroll;
         background-color: white;
+        padding: 0 10px 10px 10px;
+        .closeBtn {
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+            text-align: center;
+            margin: 10px 0;
+            background-color: #2bfda4;
+            border: none;
+            border-radius: 100%;
+        }
+        a {
+            text-transform: uppercase;
+            display: flex;
+            color: black;
+            font-size: 20px;
+        }
     }
 }

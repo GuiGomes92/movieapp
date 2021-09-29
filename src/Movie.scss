@@ -17,52 +17,73 @@
     background-size: cover;
 }
 
-.posterContainer {
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+.mainPosterContainer {
     display: flex;
-    img {
-        margin: 60px;
-    }
-    .posterContainerInfo {
-        width: 30%;
-        display: flex;
-        flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    .posterContainer {
         justify-content: center;
-        align-items: flex-start;
-        padding: 0 20px;
-        h2 {
-            font-weight: lighter;
-            margin-top: 10px;
-            font-size: 1.5em;
-            color: white
+    width: 100%;
+    height: 70%;
+    display: flex;
+        img {
+            margin: 60px;
         }
-        p {
-            color: white;
-            margin-top: 0;
+        .posterContainerInfo {
+            width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 20px;
+            h2 {
+                font-weight: lighter;
+                margin-top: 10px;
+                font-size: 1.5em;
+                color: white
+            }
+            p {
+                color: white;
+                margin-top: 0;
+                text-align: justify;
+            }
+            .wishlistBtn {
+                font-size: 15px;
+                border: none;
+                border-radius: 5px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 15px 25px;
+                cursor: pointer;
+            }
+            .goBackBtn {
+                margin-right: 20px;
+                font-size: 15px;
+                background-color: transparent;
+                border-radius: 5px;
+                color: white;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 15px 25px;
+            }
+            .goBackBtn:hover {
+                cursor: pointer;
+            }
         }
-        .wishlistBtn {
-            font-size: 15px;
-            border: none;
-            border-radius: 5px;
-            text-transform: uppercase;
-            font-weight: bold;
-            padding: 15px 25px;
-            cursor: pointer;
-        }
-        .goBackBtn {
-            margin-right: 20px;
-            font-size: 15px;
-            background-color: transparent;
-            border-radius: 5px;
-            color: white;
-            text-transform: uppercase;
-            font-weight: bold;
-            padding: 15px 25px;
-        }
-        .goBackBtn:hover {
-            cursor: pointer;
+    }
+    .tecnicalInfo {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        .tecnicalInfo-items {
+            width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
         }
     }
 }

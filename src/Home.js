@@ -11,13 +11,11 @@ function Home() {
     const [topRated, setTopRated] = useState([]);
 
     async function fetchData(type, handler) {
-        console.log(type)
         let movies = []
         const movieFetch = await fetch(
             `https://api.themoviedb.org/3/movie/${type}?api_key=${REACT_APP_TMDB_API_KEY}&page=1`
         );
         const movieFetchResponse = await movieFetch.json()
-        console.log(movieFetchResponse.results)
         movieFetchResponse?.results?.forEach(movie => {
             let name = movie.name || movie.original_name || movie.title
             movies.push({
